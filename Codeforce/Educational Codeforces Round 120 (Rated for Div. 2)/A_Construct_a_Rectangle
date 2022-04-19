@@ -1,0 +1,45 @@
+//https://codeforces.com/contest/1622/problem/A
+#include<bits/stdc++.h>
+#define int long long int
+using namespace std;
+ 
+const int SIZE=1e6;
+ 
+int p[SIZE];
+ 
+void solve(){
+    cin >> p[0] >> p[1] >> p[2];
+    sort(p,p+3);
+    if(p[0]==p[1]){
+        if(p[2]==p[2]/2+p[2]/2){
+            cout << "YES" << '\n';
+        }else{
+            cout << "NO" << '\n';
+        }
+        return;
+    }       
+    if(p[1]==p[2] || (p[0]==p[1] && p[0]==p[2] && p[1]==p[2])){
+        if(p[0]==p[0]/2+p[0]/2){
+            cout << "YES" << '\n';
+        }else{
+            cout << "NO" << '\n';
+        }
+        return;
+    }
+    if(p[2]==p[0]+p[1]){
+        cout << "YES" << '\n';
+    }else{
+        cout << "NO" << '\n';
+    }
+}
+ 
+void pre(){
+}
+ 
+signed main(){
+    ios::sync_with_stdio(false);cin.tie(0);
+    int t;
+    cin >> t;
+    while(t--)
+    solve();
+}
