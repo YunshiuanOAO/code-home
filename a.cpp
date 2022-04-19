@@ -32,44 +32,6 @@ void solve(){
     cin >> q;
     for(int i=1;i<=n;i++)t[i]=a[i];
     sort(t+1,t+n+1);
-    m=unique(t+1,t+n+1)-t-1;
-    for(int i=1;i<=n;i++){
-        a[i]=lower_bound(t+1,t+m+1,a[i])-t;
-    }
-    for(int i=1;i<=n;i++)t[i]=b[i];
-    sort(t+1,t+n+1);
-    m=unique(t+1,t+n+1)-t-1;
-    for(int i=1;i<=n;i++){
-        b[i]=lower_bound(t+1,t+m+1,b[i])-t;
-    }
-
-    for(int i=1;i<=n;i++)t[i]=c[i];
-    sort(t+1,t+n+1);
-    m=unique(t+1,t+n+1)-t-1;
-    for(int i=1;i<=n;i++){
-        c[i]=lower_bound(t+1,t+m+1,c[i])-t;
-    }
-
-    for(int i=1;i<=n;i++)t[i]=d[i];
-    sort(t+1,t+n+1);
-    m=unique(t+1,t+n+1)-t-1;
-    for(int i=1;i<=n;i++){
-        d[i]=lower_bound(t+1,t+m+1,d[i])-t;
-    }
-
-    for(int i=1;i<=n;i++)t[i]=e[i];
-    sort(t+1,t+n+1);
-    m=unique(t+1,t+n+1)-t-1;
-    for(int i=1;i<=n;i++){
-        e[i]=lower_bound(t+1,t+m+1,e[i])-t;
-    }
-
-    for(int i=1;i<=n;i++)t[i]=f[i];
-    sort(t+1,t+n+1);
-    m=unique(t+1,t+n+1)-t-1;
-    for(int i=1;i<=n;i++){
-        f[i]=lower_bound(t+1,t+m+1,f[i])-t;
-    }
 
     for(int i=1;i<=n;i++)t[i]=sum[i];
     sort(t+1,t+n+1);
