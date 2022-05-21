@@ -17,6 +17,7 @@ void solve(){
         p.push_back(i);
     }
     int ans=0;
+   //枚舉每列的皇后會在哪一格。
     do{
         int u[2][SIZE*2]={};
         bool err=0;
