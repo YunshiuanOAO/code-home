@@ -19,7 +19,7 @@ void solve(){
     int ans=0;
    //枚舉每列的皇后會在哪一格。
     do{
-        int u[2][SIZE*2]={};
+        int u[2][SIZE*2]={}; //判斷是否為同一斜線 左斜：x-y=k 右斜：x+y=k k為定值。 
         bool err=0;
         for(int i=0;i<SIZE;i++){
             if(chess[i][p[i]]=='*' || u[0][i+p[i]] || u[1][i-p[i]+SIZE]){
