@@ -1,5 +1,5 @@
-# Introductory Problems
-[Weird Algorithm]()
+## Introductory Problems
+  [Weird Algorithm](https://github.com/YunshiuanOAO/code-home/blob/main/CSES/1068.cpp)
 
 # Sorting and Searching
 # Dynamic Programming
