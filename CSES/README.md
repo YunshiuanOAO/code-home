@@ -23,6 +23,8 @@
   
   [Palindrome Reorder](https://github.com/YunshiuanOAO/code-home/blob/main/CSES/1068.cpp)
   
+  [Gray Code](https://github.com/YunshiuanOAO/code-home/blob/main/CSES/1068.cpp)
+  
   [Creating Strings](https://github.com/YunshiuanOAO/code-home/blob/main/CSES/1068.cpp)
   
   [Apple Division](https://github.com/YunshiuanOAO/code-home/blob/main/CSES/1068.cpp)
