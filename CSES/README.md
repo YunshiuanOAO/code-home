@@ -31,6 +31,8 @@
   
   [Chessboard and Queens](https://github.com/YunshiuanOAO/code-home/blob/main/CSES/1624.cpp)
   
+  [Digit Queries](https://github.com/YunshiuanOAO/code-home/blob/main/CSES/2431.cpp)
+  
 ## Sorting and Searching
 ## Dynamic Programming
 ## Graph Algorithms
